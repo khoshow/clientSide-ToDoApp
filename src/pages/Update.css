@@ -1,0 +1,10 @@
+
+.container{
+
+}
+
+.content{
+    width: 600px;
+    max-width: 80vw;
+    margin: 50px auto;
+}

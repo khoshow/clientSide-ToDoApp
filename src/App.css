@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+}
+.sideNav{
+width: 10vw
+}
+
+.content{
+width: 800px;
+margin: 10px auto;
+max-width: 80vw;
+
+}
+
+.taskContainer{
+ 
+    display: flex;
+    justify-content: space-around;
+}
+
+.taskStatus{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(105, 100, 100);
+    margin: 5px;
+    position:relative
+}
+
+.inside-status{
+    position: absolute;
+    bottom: 0
+}
+

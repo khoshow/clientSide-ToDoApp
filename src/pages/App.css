@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+}
+.sideNav{
+    margin-top: 50px;
+width: 10vw;
+text-align: center;
+}
+
+.content{
+width: 800px;
+margin: 10px auto;
+max-width: 80vw;
+
+}
+
+.taskContainer{
+ 
+    display: flex;
+    justify-content: space-around;
+}
+
+.taskStatus{
+    width: 150px;
+    height: 150px;
+    background-color: #00203FFF;
+    margin: 5px;
+    position:relative
+}
+
+.inside-status{
+    position: absolute;
+    bottom: 0;
+    color: #ADEFD1FF;
+    padding: 5px
+}
+
+.inside-status h3{
+    font-weight: bold;
+    font-size: 35px;
+    
+    text-align: center;
+}
+
+.inside-status h4{
+   text-align: center;
+    font-size: 18px;
+    color: #ADEFD1FF;
+ 
+}
+
