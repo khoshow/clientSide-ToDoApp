@@ -39,11 +39,7 @@ function Todolist(props) {
                 <td className='tdata'>{task.description}</td>
                 <td className='tdata'>{task.date}</td>
                 <td className='tdata'>{task.status}</td>
-                {/* <td className='tdata'>  <EditIcon className='edit' onClick={() => {
-
-                    props.tasktoUpdate(task)
-                    props.showPopup()
-                }} /> */}
+             
                 <td ><EditIcon className='edit' onClick={navigateToUpdate} />
                 {/* <td><UpdateTask2 task={task} handleChange={handleInputData} onSubmit={handleSubmit}/> */}
                     <CloseIcon className='close' onClick={() => {
